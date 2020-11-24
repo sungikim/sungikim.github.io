@@ -5,8 +5,8 @@
     <description>A stylish blog using the Solarized color palette</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 24 Nov 2020 22:10:13 +0900</pubDate>
-    <lastBuildDate>Tue, 24 Nov 2020 22:10:13 +0900</lastBuildDate>
+    <pubDate>Wed, 25 Nov 2020 00:11:18 +0900</pubDate>
+    <lastBuildDate>Wed, 25 Nov 2020 00:11:18 +0900</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>

@@ -16,4 +16,10 @@ navigation:
  - title: Categories
    url: /category
  - title: Diary
-   url: /posts-diary
+   url: /diary
+ - title: Archives
+   url: /archives
+
+collections:
+  diary:
+    output: true
