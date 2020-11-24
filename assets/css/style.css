@@ -251,10 +251,9 @@ img.center {
 /*** Icons ***/
 @font-face {
   font-family: 'solarthemeicons';
-  src: url('../fonts/solarthemeicons.eot');
-  src: url('../fonts/solarthemeicons.eot#iefix') format('embedded-opentype'),
-       url('../fonts/solarthemeicons.woff') format('woff'),
-       url('../fonts/solarthemeicons.ttf') format('truetype'),
+  src: url('../fonts/neodgm.woff') format('woff'),
+		  url('../fonts/neodgm.woff2') format('woff2'),
+		  url('../fonts/neodgm.ttf') format('ttf'),
        url('../fonts/solarthemeicons.svg#solarthemeicons') format('svg');
   font-weight: normal;
   font-style: normal;
