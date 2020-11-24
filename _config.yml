@@ -1,4 +1,4 @@
-name: Solar Theme
+name: Sungi Kim
 url: http://example.org
 description: A stylish blog using the Solarized color palette
 
@@ -7,3 +7,13 @@ paginate: 10
 
 gems: [jekyll-paginate]
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Categories
+   url: /category
+ - title: Diary
+   url: /posts-diary
