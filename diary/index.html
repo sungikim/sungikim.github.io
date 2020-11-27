@@ -4,11 +4,12 @@ title: Diary
 ---
 
 <div id="diary">
-
+	<p name = {% increment my_counter %}></p>
 	{% for post in site.diary %}
 		<article class="post">
-				<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+				<a href="{{ post.url }}">{% increment my_counter %}. {{ post.title }}</a>
 		</article>
+		
 	{% endfor %}
 
 </div>

@@ -3,7 +3,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -32,14 +32,17 @@ table {
 
 /*** Basics ***/
 body {
-	font-family: Verdana, serif;
-	font-size: 13px;
+	font-family: "neodgm";
+	
 	line-height: 1.7;
+	-webkit-font-smoothing: none;
+	-moz-osx-font-smoothing: grayscale;
+	font-feature-settings: "calt" off;
 }
 
 a, a:active, a:visited {
 	text-decoration: none;
-	border-bottom: 1px solid #839496;
+	/* border-bottom: 1px solid #839496; */
 	padding-bottom: 2px;
 }
 a:hover {
@@ -50,11 +53,11 @@ a:hover {
 p, pre { margin-bottom: 15px; }
 ul, ol { padding: 0 0 18px 30px; }
 ol li, ul li { margin-top: 10px; margin-bottom: 10px; }
-em, i { font-style: italic; }
-strong, b { font-weight: bold; }
-small { font-size: 0.85em; }
-sup { vertical-align: super; font-size: 0.85em; }
-sub { vertical-align: sub; font-size: 0.85em; }
+em, i {  }
+strong, b {  }
+small {  }
+sup { vertical-align: super;  }
+sub { vertical-align: sub;  }
 
 code {
     font: 0.85em Monaco, Courier, Monospace;
@@ -64,8 +67,8 @@ blockquote {
     margin: 22px 22px;
     padding: 0 20px;
     border-left: 2px solid #000000;
-    font-size: 1.2em;
-    font-style: italic;
+    
+    
     line-height: 1.5em;
 }
 
@@ -77,15 +80,15 @@ acronym, abbr {
 
 
 h1 {
-	font-size: 17px;
+	
 	margin: 0 0 10px 0;
 }
 h2 {
-	font-size: 15px;
+	
 	margin: 0 0 10px 0;
 }
 h3 {
-	font-size: 14px;
+	
 	margin: 0 0 10px 0;
 }
 
@@ -109,17 +112,17 @@ h3 {
 
 /*** Structure ***/
 #page {
-	width: 500px;
+	width: 700px;
 	margin: 0 auto;
 	position: relative;
 }
 
 #header {
-	width: 500px;
+	width: 700px;
 	margin: 40px auto 50px auto;
 }
 #header h1 {
-	font-size: 32px;
+	
 	margin-bottom: 4px;
 }
 #header h1 a {
@@ -127,15 +130,15 @@ h3 {
 }
 
 #footer {
-	width: 500px;
+	width: 700px;
 	margin: 50px auto 20px auto;
 	padding-top: 10px;
-	font-size: 0.85em;
-	border-top: 1px solid #073642;
+	
+	border-top: 1.5px solid #073642;
 }
 
 #content {
-	width: 500px;
+	width: 700px;
 	margin: 0 auto;
 }
 
@@ -154,8 +157,6 @@ h3 {
 
 #sidebar a {
 	border: none;
-	font-family: "Helvetica Neue", "Helvetica", serif;
-	font-size: 1.2em;
 	padding: 2px 4px;
 }
 
@@ -163,11 +164,11 @@ h3 {
 
 /*** Posts ***/
 article {
-	margin-bottom: 40px;
+	/* margin-bottom: 40px; */
 }
 
 article h1 {
-	font-size: 17px;
+	
 	margin: 0 0 10px 0;
 }
 article h1 a {
@@ -185,8 +186,8 @@ article img {
 
 article .meta {
 	padding-top: 6px;
-	font-size: 0.85em;
-	font-style: italic;
+	
+	
 }
 
 img.left {
@@ -209,7 +210,7 @@ img.center {
 .postnavigation {
 	padding-top: 10px;
     text-align: center;
-    font-size: 0.85em;
+    
 }
 
 .postnavigation .left {
@@ -250,19 +251,17 @@ img.center {
 
 /*** Icons ***/
 @font-face {
-  font-family: 'solarthemeicons';
+  font-family: 'neodgm';
   src: url('../fonts/neodgm.woff') format('woff'),
 		  url('../fonts/neodgm.woff2') format('woff2'),
-		  url('../fonts/neodgm.ttf') format('ttf'),
-       url('../fonts/solarthemeicons.svg#solarthemeicons') format('svg');
-  font-weight: normal;
-  font-style: normal;
+		  url('../fonts/neodgm.ttf') format('ttf');
+  
+  
 }
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "solarthemeicons";
-  font-style: normal;
-  font-weight: normal;
+  
+  
   speak: none;
   display: inline-block;
   text-decoration: inherit;
@@ -277,5 +276,5 @@ img.center {
 .icon-sun:before { content: '\e801'; }
 .icon-anchor:before { content: '\e800'; }
 .icon-anchor {
-	font-size: 65%;
+	
 }

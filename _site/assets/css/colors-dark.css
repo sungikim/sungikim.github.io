@@ -1,6 +1,7 @@
 html, body {
 	background-color: #002a35;
-	color: #839496;
+	/* color: #839496; */
+	color : rgba(255,255,255,.6)
 }
 
 a, a:visited, a:active {
@@ -42,7 +43,7 @@ blockquote {
 }
 
 #footer {
-	border-color: #073642;
+	border-color: rgba(255,255,255,.6);
 }
 
 
