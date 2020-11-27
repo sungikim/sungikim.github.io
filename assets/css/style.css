@@ -33,11 +33,10 @@ table {
 /*** Basics ***/
 body {
 	font-family: "neodgm";
-	
+	font-size: 16px;
 	line-height: 1.7;
-	-webkit-font-smoothing: none;
+	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-feature-settings: "calt" off;
 }
 
 a, a:active, a:visited {
