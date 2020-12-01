@@ -1,5 +1,5 @@
 name: Sungi Kim
-url: http://example.org
+url: sungikim.github.io
 description: 
 
 permalink: /:year/:month/:day/:title/
@@ -19,8 +19,6 @@ kramdown:
   hard_wrap: true
   
 navigation:
- - title: Home
-   url: /index.html
  - title: About
    url: /about
  - title: Diary
