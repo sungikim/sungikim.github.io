@@ -8,18 +8,40 @@ paginate: 10
 gems: [jekyll-paginate]
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "post"
+
+kramdown:
+  hard_wrap: true
+  
 navigation:
  - title: Home
    url: /index.html
  - title: About
    url: /about
- - title: Categories
-   url: /category
  - title: Diary
    url: /diary
- - title: Archives
-   url: /archives
+ - title: Design
+   url: /design
+ - title: Book
+   url: /book
+ - title: etc.
+   url: /etc
+ - title: Product Design
+   url: /productDesign
 
 collections:
   diary:
+    output: true
+  design:
+    output: true
+  book:
+    output: true
+  etc:
+    output: true
+  productDesign:
     output: true

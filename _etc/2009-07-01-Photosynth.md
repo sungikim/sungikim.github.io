@@ -1,0 +1,12 @@
+---
+title: "Photosynth"
+date: "2009-07-01"
+---
+
+Photosynth 4ID class
+
+http://photosynth.net/view.aspx?cid=1dffd19e-4447-4dcd-9025-b5d77e289a31&m=false&i=0:0:346&c=-7.32887:2.25625:-0.0710276&z=559.019367775431&d=1.13706592440948:-2.56999244799687:-2.41057453296954&p=0:0
+
+Photosynth UOS 경농관
+
+http://photosynth.net/view.aspx?cid=cff3be52-3618-435d-9c35-9db90aa2da6a&m=false&i=0:0:2&c=0.0193008:-0.00482001:0.0130175&z=571.987564358581&d=2.75698401029221:-1.95245001567431:-3.25622961374309&p=0:0

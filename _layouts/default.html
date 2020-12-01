@@ -3,7 +3,8 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>{{ page.title }}</title>
+  <!-- <title>{{ page.title }}</title> -->
+  <title>sungi kim</title>
   <meta name="viewport" content="width=device-width">
 
   <!--[if lt IE 9]>
@@ -22,14 +23,6 @@
   <header id="header">
     <h1><a href="/">{{ site.name }}</a></h1>
     <p>{{ site.description }}</p>
-  </header>
-
-
-
-  <div id="page">
-
-
-
     <div id="sidebar">
       <nav>
         <ul>
@@ -45,6 +38,30 @@
         </ul>
       </nav>
     </div>
+    <div class="PageNavigation">
+      {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">< 이전글(P)</a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}">다음글(N) ></a>
+      {% endif %}
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">< 이전글(P)</a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}">다음글(N) ></a>
+      {% endif %}
+    </div> -->
 
 
 
@@ -53,14 +70,18 @@
     </div>
 
 
-
+    <footer id="footer">
+      <p class="meta"><span class="postdate">BT AR</span></p>
+      <!-- <div class="PageNavigation">
+        {% if page.previous.url %}
+          <a class="prev" href="{{page.previous.url}}">< 이전글(P)</a>
+        {% endif %}
+        {% if page.next.url %}
+          <a class="next" href="{{page.next.url}}">다음글(N) ></a>
+        {% endif %}
+      </div> -->
+    </footer>
   </div>
-
-
-
-  <footer id="footer">
-    <p class="copyright">BT AR</p>
-  </footer>
 
 
 
@@ -71,6 +92,21 @@
     $(document).ready(function(){
       $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
     });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "{{page.next.url}}";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "{{page.previous.url}}";
+      }
+      
+    }
+
+
   </script>
 
 

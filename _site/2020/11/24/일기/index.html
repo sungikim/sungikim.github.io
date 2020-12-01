@@ -3,7 +3,8 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>일기</title>
+  <!-- <title>일기</title> -->
+  <title>sungi kim</title>
   <meta name="viewport" content="width=device-width">
 
   <!--[if lt IE 9]>
@@ -22,14 +23,6 @@
   <header id="header">
     <h1><a href="/">Sungi Kim</a></h1>
     <p></p>
-  </header>
-
-
-
-  <div id="page">
-
-
-
     <div id="sidebar">
       <nav>
         <ul>
@@ -38,11 +31,15 @@
           
           <li><a href="/about">About</a></li>  
           
-          <li><a href="/category">Categories</a></li>  
-          
           <li><a href="/diary">Diary</a></li>  
           
-          <li><a href="/archives">Archives</a></li>  
+          <li><a href="/design">Design</a></li>  
+          
+          <li><a href="/book">Book</a></li>  
+          
+          <li><a href="/etc">etc.</a></li>  
+          
+          <li><a href="/productDesign">Product Design</a></li>  
           
           <!-- <li><a href="/">Home</a></li>
           <li><a href="/archives">Archive</a></li>
@@ -53,6 +50,26 @@
         </ul>
       </nav>
     </div>
+    <div class="PageNavigation">
+      
+        <a class="prev" href="/2013/06/06/france-removes-internet-cut-off/">< 이전글(P)</a>
+      
+      
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      
+        <a class="prev" href="/2013/06/06/france-removes-internet-cut-off/">< 이전글(P)</a>
+      
+      
+    </div> -->
 
 
 
@@ -60,7 +77,7 @@
       <article class="post">
 
 	
-		<h1><a href="/2020/11/24/%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5/">일기</a></h1>
+		<h1 class=contentTitle><a href="/2020/11/24/%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5/">일기 <span class="titleDate">(Nov 24, 2020)</span></a></h1>
 	
 
 	<div class="post-content"><p>오랜만에 친구를 만나 기분 좋을 만큼 술을 마셨다. 한두잔 더 마셨으면 졸렸을텐데, 딱 적당하게 마신 것도 오랜만이다. 잘은 아니지만 나도 이제 대화란게 좀 익숙해졌나보다. 대화를 하다보니 최근에 나를 일깨워줬던 두 가지 이야기를 하게 되었는데, 하나는 언젠가 죽을텐데 하며 몸에 나쁜 담배를 피우거나 믹스커피를 마시는데, ‘오래 사는 것’ 보다 ‘건강하게 사는 것’ 을 위해 몸에 나쁜 것을 하지 말아야 한다는 이야기. 하나는 (칼세이건이 딸에게 말했다는데) 언젠가는 모두 죽고 먼지로 돌아가고, 먼저 떠난 이들을 다시 만날 수 없으리라 생각하지만, 그래도 중요한 것은 내가 지금 살아가고 있다는 것.</p>
@@ -76,20 +93,22 @@
 <p>소파를 사고싶다. 거실이 좁아진다. 소파를 사고싶다. 거실이 좁아진다. 소파를 사고싶다. 거실이 좁아진다. 발뮤다 더팟이 사고싶다. 그럴까?</p>
 </div>
 
-	<p class="meta">Posted on <span class="postdate">Nov 24, 2020</span></p>
+	
 
 </article>
     </div>
 
 
-
+    <footer id="footer">
+      <p class="meta"><span class="postdate">BT AR</span></p>
+      <!-- <div class="PageNavigation">
+        
+          <a class="prev" href="/2013/06/06/france-removes-internet-cut-off/">< 이전글(P)</a>
+        
+        
+      </div> -->
+    </footer>
   </div>
-
-
-
-  <footer id="footer">
-    <p class="copyright">BT AR</p>
-  </footer>
 
 
 
@@ -100,6 +119,21 @@
     $(document).ready(function(){
       $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
     });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "/2013/06/06/france-removes-internet-cut-off/";
+      }
+      
+    }
+
+
   </script>
 
 
