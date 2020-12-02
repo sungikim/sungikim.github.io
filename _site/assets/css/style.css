@@ -281,14 +281,14 @@ img.center {
 		width: 100%;
 		margin-left: 0px;
 		/* position: relative; */
-		display: inline-block;
+		display: block;
 		/* margin-top: 14px; */
 	}
 
 	#header {
 		width: 100%;
 		margin: 14px 24px;
-		/* display: inline-block; */
+		display: block;
 		vertical-align: top;
 		position: inherit;
 	}
