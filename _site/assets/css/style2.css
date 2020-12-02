@@ -272,7 +272,7 @@ img.center {
 	}
 
 	#sidebar nav select.mnav {
-		display: block;
+		display: inline-block;
 		margin-bottom: 15px;
 	}
 
