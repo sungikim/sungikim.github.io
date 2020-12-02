@@ -255,7 +255,7 @@ img.center {
 
 /*** Media Queries ***/
 @media all and (max-width: 870px) {
-
+	
 	#page, #header, #content, #footer {
 		width: inherit;
 		padding-left: 10px;
@@ -273,6 +273,33 @@ img.center {
 	#sidebar nav select.mnav {
 		display: block;
 		margin-bottom: 15px;
+	}
+
+
+
+	#page {
+		width: 100%;
+		margin-left: 0px;
+		/* position: relative; */
+		display: inline-block;
+		/* margin-top: 14px; */
+	}
+
+	#header {
+		width: 100%;
+		margin: 14px 24px;
+		/* display: inline-block; */
+		vertical-align: top;
+		position: inherit;
+	}
+	
+	#header .PageNavigation {
+		position: inherit;
+		bottom: 0px;
+	}
+
+	img {
+		width: 100%;
 	}
 
 }
@@ -308,3 +335,6 @@ img.center {
 .icon-anchor {
 	
 }
+
+
+
