@@ -268,6 +268,7 @@ img.center {
 		width: 100%;
 		left: 0;
 		margin: 10px 10px 20px 10px;
+		display: inline-block;
 	}
 
 	#sidebar nav select.mnav {
@@ -291,6 +292,9 @@ img.center {
 		display: block;
 		vertical-align: top;
 		position: inherit;
+	}
+	#header h1 {
+		display: inline-block;
 	}
 	
 	#header .PageNavigation {
