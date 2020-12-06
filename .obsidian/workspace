@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "fec389cdaa123ac2",
+    "type": "split",
+    "children": [
+      {
+        "id": "0518174b23fc355e",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_design/2020-03-12-공적마스크 재고현황 서비스 만들기.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e696830e1f90150f",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe585b7183df740e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fecbd640f10fca37",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "c370a588c48db817",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a398846f439fa91b",
+    "type": "split",
+    "children": [
+      {
+        "id": "c9f17d09d3bc0df0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c13e100186287a08",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "_design/2020-03-12-공적마스크 재고현황 서비스 만들기.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "_design/2020-03-12-공적마스크 재고현황 서비스 만들기.md",
+    "_diary/2007-07-23-여행..md",
+    "_design/2013-04-06-이메일,_편지.md",
+    "_design/2019-08-25-인덕션 스위치 커버 만들기.md",
+    "_diary/2007-07-06-일상..md",
+    "_diary/2007-06-30-MT_계획.md",
+    "_diary/2007-06-30-한강에서_놀기..md",
+    "_design/2017-02-26-Framer로_만든_화이트노이즈_서비스.md",
+    "_design/2017-02-25-Sofa.md",
+    "_design/2012-05-19-인터넷_공간_정리하기.md"
+  ]
+}
