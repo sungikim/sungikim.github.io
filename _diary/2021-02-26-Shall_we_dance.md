@@ -1,4 +1,3 @@
-
 ---
 title: "Shall we dance?"
 date: "2020-02-26"
