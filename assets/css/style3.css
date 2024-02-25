@@ -35,6 +35,11 @@ img {
 }
 
 
+hr {
+	border: 1px solid #777;
+  border-top: 0;
+}
+
 /*** Basics ***/
 body {
 /*	font-family: "neodgm";
