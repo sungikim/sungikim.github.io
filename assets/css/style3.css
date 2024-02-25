@@ -241,7 +241,12 @@ article img {
 	display: block;
 	text-align: center;
 	margin: 0 auto 1em auto;
-	border-radius: 8px;
+	border-radius: 4px;
+	filter: saturate(0) contrast(0.8) brightness(1.6);
+}
+
+article img:hover {
+	filter: saturate(1) contrast(1) brightness(1);
 }
 
 article .meta {
