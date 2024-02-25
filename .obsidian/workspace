@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0518174b23fc355e",
+        "id": "7c3d7f29ac623f54",
         "type": "leaf",
-        "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "_book/2020-08-12-나는 슈뢰딩거의 고양이로소이다.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -69,10 +65,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_book/2020-08-12-나는 슈뢰딩거의 고양이로소이다.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -84,16 +81,17 @@
     "direction": "horizontal",
     "width": 300
   },
+  "active": "7c3d7f29ac623f54",
   "lastOpenFiles": [
-    "_book/2020-08-12-나는 슈뢰딩거의 고양이로소이다.md",
-    "_book/2019-02-11-Onward.md",
-    "_book/2016-08-02-당신의_이름을_지어다_며칠은_먹었다._박준_시집.md",
-    "_book/2016-06-19-설득의_심리학_-_로버트_치알디니.md",
-    "_book/2014-09-22-왕자의_특권_-_아멜리_노통브_#2.md",
-    "_book/2013-11-13-생각의_탄생_spark_of_genius_(ing...).md",
-    "_book/2015-03-03-당신의_그림자는_월요일.md",
-    "_book/2012-10-31-행복의_정복.md",
-    "_book/2012-03-18-컨텍스트를_생각하는_디자인.md",
-    "_book/2011-08-13-도연초.md"
+    "_diary/2007-07-20-Keyword.md",
+    "_diary/2007-07-25-오늘의_포츈쿠키.md",
+    "_book/2018-09-15-Lab_Girl_-_호프_자런.md",
+    "_book/2011-09-01-더_나은_사용자경험을_위한_인터랙션_디자인.md",
+    "_book/2008-02-22-파피용.md",
+    "_diary/2020-01-30-고양이의 복막염.md",
+    "_diary/2020-03-13-꽃송이 같은 첫눈 – 강경애.md",
+    "_diary/2020-03-17-겨울잠의 끝.md",
+    "vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.6/README.md",
+    "vendor/bundle/ruby/2.6.0/gems/public_suffix-4.0.6/2.0-Upgrade.md"
   ]
 }
