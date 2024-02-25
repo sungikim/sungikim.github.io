@@ -41,6 +41,8 @@ collections:
     output: true
   book:
     output: true
+  movie:
+    output: true
   etc:
     output: true
   productDesign:
