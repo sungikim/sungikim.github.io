@@ -4,7 +4,6 @@
 
 html, body {
 	color: var(--text-color);
-	color: #839496;
 }
 
 a, a:visited, a:active {
