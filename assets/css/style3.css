@@ -59,6 +59,8 @@ a, a:active, a:visited {
 	height: 100%;
   width: 100%;
   display: inline-block;
+  line-height: 2;
+  padding-left:4px;
 }
 a:hover {
 	background-color: #839496;
@@ -175,19 +177,19 @@ h3 {
 	}
 #sidebar {
 	display: inline-block;
-	width: 160px;
+	width: 100%;
 	vertical-align: top;
 	/* margin-left: 24px; */
 }
 
 #sidebar li {
 	list-style: none;
-	margin: 2.4px 0;
+	margin: 0;
 }
 
 #sidebar a {
 	border: none;
-	line-height: 1.4;
+	line-height: 2;
 	display: block;
 }
 
