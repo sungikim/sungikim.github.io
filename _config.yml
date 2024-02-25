@@ -27,6 +27,8 @@ navigation:
    url: /design
  - title: Book
    url: /book
+ - title: Movie&Drama
+   url: /movie
  - title: etc.
    url: /etc
  - title: Product Design
