@@ -31,10 +31,10 @@ navigation:
    url: /book
  - title: Movie&Drama
    url: /movie
- - title: etc.
-   url: /etc
  - title: Make
    url: /make
+ - title: etc.
+   url: /etc
 
 collections:
   diary:
@@ -47,7 +47,7 @@ collections:
     output: true
   movie:
     output: true
-  etc:
-    output: true
   make:
+    output: true
+  etc:
     output: true

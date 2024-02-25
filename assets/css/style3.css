@@ -243,6 +243,7 @@ article img {
 	margin: 0 auto 1em auto;
 	border-radius: 4px;
 	filter: saturate(0) contrast(0.8) brightness(1.6);
+	transition: 0.2s ease-in-out;
 }
 
 article img:hover {

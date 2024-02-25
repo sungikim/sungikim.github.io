@@ -3,7 +3,6 @@ title: "The Greatest Game ever Played"
 date: "2011-05-01"
 ---
 
-![](http://kimsungi.cafe24.com/wp/wp-content/uploads/1/cfile22.uf.20667B534DBD91C30F77E8.jpg)
 
   
 영화를 보기전, 사람들이 왜 이 장면을 포스팅 해놓는지 몰랐다. 골프 이야기인데.  
@@ -15,4 +14,5 @@ date: "2011-05-01"
 장면장면의 프레임, 컬러도 멋졌고, 소리도 멋졌다. 그래서 더 감동적이었나보다.  
   
 
-![](http://kimsungi.cafe24.com/wp/wp-content/uploads/1/cfile7.uf.1214D24C4DBD927E1E4120.jpg)
+![](../photo/2011-05-01-The_Greatest_Game_ever_Played.jpg)
+![](../photo/2011-05-01-The_Greatest_Game_ever_Played-2.jpg)
