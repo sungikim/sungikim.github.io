@@ -40,8 +40,8 @@ body {
 /*	font-family: "neodgm";
 	font-size: 16px;
 	line-height: 1.7;*/
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	/*-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;*/
 
 	font-family: 'Noto Serif KR', serif;
 	word-break: break-word;
