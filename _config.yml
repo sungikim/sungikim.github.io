@@ -23,6 +23,8 @@ navigation:
    url: /about
  - title: Diary
    url: /diary
+ - title: Memory
+   url: /memory
  - title: Design
    url: /design
  - title: Book
@@ -36,6 +38,8 @@ navigation:
 
 collections:
   diary:
+    output: true
+  memory:
     output: true
   design:
     output: true
