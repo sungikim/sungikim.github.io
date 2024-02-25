@@ -44,11 +44,11 @@ blockquote {
 	background-color: var(--hover-back-color);
 }
 
-#footer {
+/*#footer {
 	border-color: var(--hover-back-color);
 }
 
-
+*/
 
 /*** Pygments ***/
 .highlight{

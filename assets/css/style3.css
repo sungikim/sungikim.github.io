@@ -153,15 +153,18 @@ h3 {
 	position: fixed;
 	bottom: 20px;
 }
+	.PageNavigation a {
+		width: fit-content;
+	}
 
-#footer {
-	/* width: 700px; */
+/*#footer {
 	margin-top: 10px;
 	margin-bottom: 4px;
 	padding-top: 10px;
 	display: inline-block;
 	border-top: 1.5px solid #073642;
-}
+}*/
+
 
 .sticky {
 
@@ -174,6 +177,12 @@ h3 {
 }
 	#content ol, #content ul {
 		margin-left: 30px;
+	}
+
+	#end {
+		height: 20px;
+    width: 20px;
+    border-bottom: 1.5px solid #666;
 	}
 #sidebar {
 	display: inline-block;
@@ -227,6 +236,7 @@ article img {
 	display: block;
 	text-align: center;
 	margin: 0 auto 1em auto;
+	border-radius: 8px;
 }
 
 article .meta {
