@@ -377,4 +377,23 @@ img.center {
 }
 
 
+@media (max-width: 600px) {
+    .post-content {
+    	font-size: 1.2em;
+    }
+    #header {
+    	background-color: #eee;
+	    margin: 0;
+    	padding: 14px 18px;
+    }
+    .#sidebar {
+    	margin: 0;
+    }
+    h1 {
+    	font-size: 1.2em;
+    }
+}
+
+
+
 
