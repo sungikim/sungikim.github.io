@@ -378,9 +378,9 @@ img.center {
 
 
 @media (max-width: 600px) {
-    .post-content {
-    	font-size: 1.2em;
-    }
+		body {
+			font-size: 1.2em;
+		}
     #header {
     	background-color: #eee;
 	    margin: 0;
@@ -389,9 +389,15 @@ img.center {
     .#sidebar {
     	margin: 0;
     }
-    h1 {
-    	font-size: 1.2em;
-    }
+    #sidebar nav select.mnav {
+	    margin-bottom: 0px;
+	    background: #fff;
+	    border: 1.5px solid #666;
+	    border-radius: 2px;
+	    color: #555;
+	    font-size: 1.2em;
+	    padding: 4px;
+	  }
 }
 
 
