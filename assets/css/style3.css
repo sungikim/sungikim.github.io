@@ -379,7 +379,7 @@ img.center {
 
 @media (max-width: 600px) {
 		body {
-			font-size: 1.2em;
+			font-size: 1.1em;
 		}
     #header {
     	background-color: #eee;
@@ -395,8 +395,18 @@ img.center {
 	    border: 1.5px solid #666;
 	    border-radius: 2px;
 	    color: #555;
-	    font-size: 1.2em;
+	    font-size: 1.1em;
 	    padding: 4px;
+	  }
+	  #sidebar {
+	  	margin:0;
+	  }
+	  select {
+	    font-size: 0.9em;
+	    border: 1px solid #aaa;
+	    border-radius: 4px;
+	    background: #00000000;
+	    width: 100%;
 	  }
 }
 
