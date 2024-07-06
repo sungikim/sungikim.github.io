@@ -4,17 +4,14 @@ title: Sungi Kim
 ---
 
 <div id="diary">
-    {% assign categories = site | where: "layout", "post" | group_by: "category" %}
+	{% assign sorted = site.diary | reverse %}
+	{% for post in sorted %}
+		<article class="post">
+				<a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} | {{ post.title }}</a>
+		</article>
+		
+	{% endfor %}
 
-    {% for category in categories %}
-        <h2>{{ category.name }}</h2>
-        {% assign sorted_posts = category.items | sort: "date" | reverse %}
-        {% for post in sorted_posts limit:4 %}
-            <article class="post">
-                <a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} | {{ post.title }}</a>
-            </article>
-        {% endfor %}
-    {% endfor %}
 </div>
 
 
