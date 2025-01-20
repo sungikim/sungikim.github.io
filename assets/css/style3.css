@@ -149,6 +149,7 @@ h3 {
 	display: inline-block;
 	vertical-align: top;
 	position: fixed;
+	font-weight: 800;
 }
 #header h1 {
 	margin-bottom: 4px;
@@ -161,6 +162,7 @@ h3 {
 #header .PageNavigation {
 	position: fixed;
 	bottom: 20px;
+	font-family: sans-serif;
 }
 	.PageNavigation a {
 		width: fit-content;
@@ -180,8 +182,9 @@ h3 {
 }
 
 #content {
-	width: 700px;
+	max-width: 700px;
 	margin-top: 14px;
+	font-weight: 500;
 	/* margin-left: 184px; */
 }
 	#content ol, #content ul {
@@ -220,14 +223,13 @@ article {
 
 article h1 {	
 	margin: 0 0 10px 0;
-	/* border-top: 1px solid; */
-	
 	padding-bottom: 6px;
 	display : inline-block;
 }
 
 .contentTitle {
 	border-bottom: 1px solid;
+	font-weight: 800;
 }
 
 .titleDate {
