@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <title>가로수길 라곰</title> -->
+  <title>sungi kim</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;"> -->
+  
+  <link href="/assets/css/style3.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/">Sungi Kim</a></h1>
+    <p></p>
+    <div id="sidebar">
+      <nav>
+        <ul>
+          
+          <li><a href="/about">About</a></li>  
+          
+          <li><a href="/diary">Diary</a></li>  
+          
+          <li><a href="/design">Design</a></li>  
+          
+          <li><a href="/book">Book</a></li>  
+          
+          <li><a href="/etc">etc.</a></li>  
+          
+          <li><a href="/productDesign">Product Design</a></li>  
+          
+          <!-- <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/diary">Diary</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="PageNavigation">
+      
+        <a class="prev" href="/diary/2018-08-26-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/diary/2018-09-15-%E1%84%87%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB/">다음글(N) ></a>
+      
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      
+        <a class="prev" href="/diary/2018-08-26-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/diary/2018-09-15-%E1%84%87%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB/">다음글(N) ></a>
+      
+    </div> -->
+
+
+
+    <div id="content">
+      <article class="post">
+
+	
+		<h1 class=contentTitle><a href="/diary/2018-08-28-%E1%84%80%E1%85%A1%E1%84%85%E1%85%A9%E1%84%89%E1%85%AE%E1%84%80%E1%85%B5%E1%86%AF_%E1%84%85%E1%85%A1%E1%84%80%E1%85%A9%E1%86%B7/">가로수길 라곰 <span class="titleDate">(Aug 28, 2018)</span></a></h1>
+	
+
+	<div class="post-content"><p>해질녘. 꾹꾹 눌러쓴 편지 한 편을 들고, 골목의 주택으로 들어간다. 반짝이는 방, 작은 테이블, 의자와 이름표. 열심히 일하는 에어컨과 선풍기. 각자가 들고온 맥주와 소소한 음식들로 가득한 테이블. 어색하지만, 대화로 금세 친해지는 사람들. 수시로 바뀌는 이야기의 주제, 의견, 토론, 가벼운 농담들.</p>
+
+<p> </p>
+
+<p>같은 동네의 자기 집으로 돌아가듯 한명씩 가벼운 인사와 함께 돌아가고, 남은 사람들은 늦은 새벽까지 이야기 꽃 풍경을 만든다. 깜깜한 밤 달빛 아래 반딧불이들의 풍경같기도 하다.</p>
+
+<p> </p>
+
+<p>어느 날, 영화를 보고 난 후. 잠시 밖에 나간 사이, 누군가들은 맘마미아2를 보러간다며 그 음악을 듣고있더라. 부르고도 있더라. 초인종을 누르고 들어가보니, 춤도 추고 있더라. 이런 사람들.</p>
+</div>
+
+	
+
+</article>
+    </div>
+
+
+    <footer id="footer">
+      <p class="meta"><span class="postdate">BT AR</span></p>
+      <!-- <div class="PageNavigation">
+        
+          <a class="prev" href="/diary/2018-08-26-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5/">< 이전글(P)</a>
+        
+        
+          <a class="next" href="/diary/2018-09-15-%E1%84%87%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB/">다음글(N) ></a>
+        
+      </div> -->
+    </footer>
+  </div>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "/diary/2018-09-15-%E1%84%87%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB/";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "/diary/2018-08-26-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5/";
+      }
+      
+    }
+
+
+  </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <title>감정</title> -->
+  <title>sungi kim</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;"> -->
+  
+  <link href="/assets/css/style3.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/">Sungi Kim</a></h1>
+    <p></p>
+    <div id="sidebar">
+      <nav>
+        <ul>
+          
+          <li><a href="/about">About</a></li>  
+          
+          <li><a href="/diary">Diary</a></li>  
+          
+          <li><a href="/design">Design</a></li>  
+          
+          <li><a href="/book">Book</a></li>  
+          
+          <li><a href="/etc">etc.</a></li>  
+          
+          <li><a href="/productDesign">Product Design</a></li>  
+          
+          <!-- <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/diary">Diary</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="PageNavigation">
+      
+        <a class="prev" href="/diary/2011-09-14-%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%AF%E1%84%8B%E1%85%B4_%E1%84%8E%E1%85%B5%E1%86%AB%E1%84%8E%E1%85%A5%E1%86%A8%E1%84%83%E1%85%B3%E1%86%AF/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/diary/2011-09-22-Grey_Factory/">다음글(N) ></a>
+      
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      
+        <a class="prev" href="/diary/2011-09-14-%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%AF%E1%84%8B%E1%85%B4_%E1%84%8E%E1%85%B5%E1%86%AB%E1%84%8E%E1%85%A5%E1%86%A8%E1%84%83%E1%85%B3%E1%86%AF/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/diary/2011-09-22-Grey_Factory/">다음글(N) ></a>
+      
+    </div> -->
+
+
+
+    <div id="content">
+      <article class="post">
+
+	
+		<h1 class=contentTitle><a href="/diary/2011-09-18-%E1%84%80%E1%85%A1%E1%86%B7%E1%84%8C%E1%85%A5%E1%86%BC/">감정 <span class="titleDate">(Sep 18, 2011)</span></a></h1>
+	
+
+	<div class="post-content"><p>내가 알고 있는 나.  <br />
+내 성격은 이렇다.  <br />
+나는 이렇게 생각한다. 판단한다. 행동한다.  <br />
+나는 여지껏 이런식으로 살았고 이런 것들이 나이다.  <br />
+나는 그렇게 생각하고 행동하지 않는다. 나는 나를 제어할 수 있다.  <br />
+_  <br />
+이런 것들은 순간의 감정 앞에서 무기력해지는 것들이다.</p>
+
+<p>iPhone 에서 작성된 글입니다.</p>
+</div>
+
+	
+
+</article>
+    </div>
+
+
+    <footer id="footer">
+      <p class="meta"><span class="postdate">BT AR</span></p>
+      <!-- <div class="PageNavigation">
+        
+          <a class="prev" href="/diary/2011-09-14-%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%AF%E1%84%8B%E1%85%B4_%E1%84%8E%E1%85%B5%E1%86%AB%E1%84%8E%E1%85%A5%E1%86%A8%E1%84%83%E1%85%B3%E1%86%AF/">< 이전글(P)</a>
+        
+        
+          <a class="next" href="/diary/2011-09-22-Grey_Factory/">다음글(N) ></a>
+        
+      </div> -->
+    </footer>
+  </div>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "/diary/2011-09-22-Grey_Factory/";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "/diary/2011-09-14-%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8C%E1%85%A5%E1%86%AF%E1%84%8B%E1%85%B4_%E1%84%8E%E1%85%B5%E1%86%AB%E1%84%8E%E1%85%A5%E1%86%A8%E1%84%83%E1%85%B3%E1%86%AF/";
+      }
+      
+    }
+
+
+  </script>
+
+
+
+</body>
+</html>

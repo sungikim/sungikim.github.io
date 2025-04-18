@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <title>자전거 길 풍경</title> -->
+  <title>sungi kim</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;"> -->
+  
+  <link href="/assets/css/style3.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/">Sungi Kim</a></h1>
+    <p></p>
+    <div id="sidebar">
+      <nav>
+        <ul>
+          
+          <li><a href="/about">About</a></li>  
+          
+          <li><a href="/diary">Diary</a></li>  
+          
+          <li><a href="/design">Design</a></li>  
+          
+          <li><a href="/book">Book</a></li>  
+          
+          <li><a href="/etc">etc.</a></li>  
+          
+          <li><a href="/productDesign">Product Design</a></li>  
+          
+          <!-- <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/diary">Diary</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="PageNavigation">
+      
+        <a class="prev" href="/diary/2018-07-02-%E1%84%81%E1%85%A1%E1%86%AF%E1%84%85%E1%85%AE%E1%84%8B%E1%85%A1_%E1%84%86%E1%85%B5%E1%86%AF%E1%84%8F%E1%85%B3/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/diary/2018-08-26-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5/">다음글(N) ></a>
+      
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      
+        <a class="prev" href="/diary/2018-07-02-%E1%84%81%E1%85%A1%E1%86%AF%E1%84%85%E1%85%AE%E1%84%8B%E1%85%A1_%E1%84%86%E1%85%B5%E1%86%AF%E1%84%8F%E1%85%B3/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/diary/2018-08-26-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5/">다음글(N) ></a>
+      
+    </div> -->
+
+
+
+    <div id="content">
+      <article class="post">
+
+	
+		<h1 class=contentTitle><a href="/diary/2018-07-03-%E1%84%8C%E1%85%A1%E1%84%8C%E1%85%A5%E1%86%AB%E1%84%80%E1%85%A5_%E1%84%80%E1%85%B5%E1%86%AF_%E1%84%91%E1%85%AE%E1%86%BC%E1%84%80%E1%85%A7%E1%86%BC/">자전거 길 풍경 <span class="titleDate">(Jul 03, 2018)</span></a></h1>
+	
+
+	<div class="post-content"><p>치마를 나풀거리며 한 여자가 자전거를 타고 앞을 지나간다. 페달에 힘을 주어 힘겹게. 손목도 힘이 부친지, 갸우뚱거리며 일자로 이어진 자전거길을 헤쳐간다. 잔잔한 풍경 속에서 힘을 주어 헤쳐간다.</p>
+
+<p>귓가에는 아까부터 Lover, please stay가 들려온다.</p>
+</div>
+
+	
+
+</article>
+    </div>
+
+
+    <footer id="footer">
+      <p class="meta"><span class="postdate">BT AR</span></p>
+      <!-- <div class="PageNavigation">
+        
+          <a class="prev" href="/diary/2018-07-02-%E1%84%81%E1%85%A1%E1%86%AF%E1%84%85%E1%85%AE%E1%84%8B%E1%85%A1_%E1%84%86%E1%85%B5%E1%86%AF%E1%84%8F%E1%85%B3/">< 이전글(P)</a>
+        
+        
+          <a class="next" href="/diary/2018-08-26-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5/">다음글(N) ></a>
+        
+      </div> -->
+    </footer>
+  </div>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "/diary/2018-08-26-%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5/";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "/diary/2018-07-02-%E1%84%81%E1%85%A1%E1%86%AF%E1%84%85%E1%85%AE%E1%84%8B%E1%85%A1_%E1%84%86%E1%85%B5%E1%86%AF%E1%84%8F%E1%85%B3/";
+      }
+      
+    }
+
+
+  </script>
+
+
+
+</body>
+</html>

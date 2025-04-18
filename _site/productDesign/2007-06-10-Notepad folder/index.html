@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <title>Notepad folder</title> -->
+  <title>sungi kim</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;"> -->
+  
+  <link href="/assets/css/style3.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/">Sungi Kim</a></h1>
+    <p></p>
+    <div id="sidebar">
+      <nav>
+        <ul>
+          
+          <li><a href="/about">About</a></li>  
+          
+          <li><a href="/diary">Diary</a></li>  
+          
+          <li><a href="/design">Design</a></li>  
+          
+          <li><a href="/book">Book</a></li>  
+          
+          <li><a href="/etc">etc.</a></li>  
+          
+          <li><a href="/productDesign">Product Design</a></li>  
+          
+          <!-- <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/diary">Diary</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="PageNavigation">
+      
+        <a class="prev" href="/productDesign/2007-05-14-Lighting%20radio%20bug/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/productDesign/2007-06-29-Sound%20board/">다음글(N) ></a>
+      
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      
+        <a class="prev" href="/productDesign/2007-05-14-Lighting%20radio%20bug/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/productDesign/2007-06-29-Sound%20board/">다음글(N) ></a>
+      
+    </div> -->
+
+
+
+    <div id="content">
+      <article class="post">
+
+	
+		<h1 class=contentTitle><a href="/productDesign/2007-06-10-Notepad%20folder/">Notepad folder <span class="titleDate">(Jun 10, 2007)</span></a></h1>
+	
+
+	<div class="post-content"><p>Year : 2007</p>
+
+<p>Notepad folder는 기존 노트패드의 단점들을 보완해주기 위한 물건이다. 노트패드에 적합한 크기와, 노트패드를 쉽게 부착하고 페이지를 쉽게 넘길 수 있는 구조를 가지고 있어서 기존의 노트패드가 가지고 있던 간단하고 빠른 사용구조를 그대로 이용할 수 있다. 또한 folder에 책갈피를 부착하여 쉽게 원하는 페이지를 마킹해 놓을 수 있다. 그리고 노트패드를 보호해 줄 커버는 수납공간을 가지고 있어서 다 쓰고 정리할 페이지를 찢어 쉽게 보관할 수 있다.</p>
+
+<p><img src="../photo/Notepad_folder-1.jpg" alt="" /><br />
+<img src="../photo/Notepad_folder-2.jpg" alt="" /><br />
+<img src="../photo/Notepad_folder-3.jpg" alt="" /><br />
+<img src="../photo/Notepad_folder-4.jpg" alt="" /><br />
+<img src="../photo/Notepad_folder-5.jpg" alt="" /><br />
+<img src="../photo/Notepad_folder-6.jpg" alt="" /><br />
+<img src="../photo/Notepad_folder-7.jpg" alt="" /></p>
+</div>
+
+	
+
+</article>
+    </div>
+
+
+    <footer id="footer">
+      <p class="meta"><span class="postdate">BT AR</span></p>
+      <!-- <div class="PageNavigation">
+        
+          <a class="prev" href="/productDesign/2007-05-14-Lighting%20radio%20bug/">< 이전글(P)</a>
+        
+        
+          <a class="next" href="/productDesign/2007-06-29-Sound%20board/">다음글(N) ></a>
+        
+      </div> -->
+    </footer>
+  </div>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "/productDesign/2007-06-29-Sound%20board/";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "/productDesign/2007-05-14-Lighting%20radio%20bug/";
+      }
+      
+    }
+
+
+  </script>
+
+
+
+</body>
+</html>

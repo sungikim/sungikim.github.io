@@ -1,0 +1,53 @@
+name: Sungi Kim
+url: sungikim.github.io
+description: 
+
+permalink: /:year/:month/:day/:hour/:minute/
+paginate: 10
+
+gems: [jekyll-paginate]
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "post"
+
+kramdown:
+  hard_wrap: true
+  
+navigation:
+ - title: About
+   url: /about
+ - title: Diary
+   url: /diary
+ - title: Memory
+   url: /memory
+ - title: Design
+   url: /design
+ - title: Book
+   url: /book
+ - title: Movie&Drama
+   url: /movie
+ - title: Make
+   url: /make
+ - title: etc.
+   url: /etc
+
+collections:
+  diary:
+    output: true
+  memory:
+    output: true
+  design:
+    output: true
+  book:
+    output: true
+  movie:
+    output: true
+  make:
+    output: true
+  etc:
+    output: true

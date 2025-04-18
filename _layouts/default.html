@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <title>{{ page.title }}</title> -->
+  <title>sungi kim</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;"> -->
+  <!-- <link href='https://cdn.rawgit.com/kattergil/NotoSerifKR-Web/5e08423b/stylesheet/NotoSerif-Web.css' rel='stylesheet' type='text/css'> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+  <link href="/assets/css/style3.css" rel="stylesheet" />
+  <link href="/assets/css/colors-serif.css" rel="stylesheet" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4729725175672374"
+     crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/">{{ site.name }}</a></h1>
+    <p>{{ site.description }}</p>
+    <div id="sidebar">
+      <nav>
+        <ul>
+          {% for nav in site.navigation %}
+          <li><a href="{{nav.url}}">{{nav.title}}</a></li>  
+          {% endfor %}
+          <!-- <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/diary">Diary</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="PageNavigation">
+      {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">< 이전글(P)</a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}">다음글(N) ></a>
+      {% endif %}
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      {% if page.previous.url %}
+        <a class="prev" href="{{page.previous.url}}">< 이전글(P)</a>
+      {% endif %}
+      {% if page.next.url %}
+        <a class="next" href="{{page.next.url}}">다음글(N) ></a>
+      {% endif %}
+    </div> -->
+
+
+
+    <div id="content">
+      {{ content }}
+      <div id="end"></div>
+    </div>
+
+
+    <!-- <footer id="footer"> -->
+      <!-- <p class="meta"><span class="postdate">BT AR</span></p> -->
+      <!-- <div class="PageNavigation">
+        {% if page.previous.url %}
+          <a class="prev" href="{{page.previous.url}}">< 이전글(P)</a>
+        {% endif %}
+        {% if page.next.url %}
+          <a class="next" href="{{page.next.url}}">다음글(N) ></a>
+        {% endif %}
+      </div> -->
+    <!-- </footer> -->
+  </div>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "{{page.next.url}}";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "{{page.previous.url}}";
+      }
+      
+    }
+
+
+  </script>
+
+
+
+</body>
+</html>

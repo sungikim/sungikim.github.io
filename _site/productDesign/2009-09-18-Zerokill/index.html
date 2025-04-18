@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <title>Zerokill</title> -->
+  <title>sungi kim</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;"> -->
+  
+  <link href="/assets/css/style3.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/">Sungi Kim</a></h1>
+    <p></p>
+    <div id="sidebar">
+      <nav>
+        <ul>
+          
+          <li><a href="/about">About</a></li>  
+          
+          <li><a href="/diary">Diary</a></li>  
+          
+          <li><a href="/design">Design</a></li>  
+          
+          <li><a href="/book">Book</a></li>  
+          
+          <li><a href="/etc">etc.</a></li>  
+          
+          <li><a href="/productDesign">Product Design</a></li>  
+          
+          <!-- <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/diary">Diary</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="PageNavigation">
+      
+        <a class="prev" href="/productDesign/2009-08-12-Lighting%20wave%20sculpture/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/productDesign/2009-10-04-Mushroom%20AHU/">다음글(N) ></a>
+      
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      
+        <a class="prev" href="/productDesign/2009-08-12-Lighting%20wave%20sculpture/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/productDesign/2009-10-04-Mushroom%20AHU/">다음글(N) ></a>
+      
+    </div> -->
+
+
+
+    <div id="content">
+      <article class="post">
+
+	
+		<h1 class=contentTitle><a href="/productDesign/2009-09-18-Zerokill/">Zerokill <span class="titleDate">(Sep 18, 2009)</span></a></h1>
+	
+
+	<div class="post-content"><p>Year : 2009 <br />
+Design : Sungi Kim + Hozin Song <br />
+Award : Reddot concept award 2009</p>
+
+<p>야생동물과 자동차 운전자 모두를 위한 도로시설물 <br />
+_태양열 발전을 이용한 야생동물 경보 시설 <br />
+우리가 모르는 사이에 크고 작은 많은 동물들이 도로에서 무참히 죽어가고 있다. 인간의 편의를 위해 만들어진 도로이지만 야생동물에게는 죽음의 길이 되고 있다. 또한 갑자기 도로로 뛰어드는 동물들로 인하여 운전자들이 사고를 당하는 경우도 많이 발생하고 있다. 우리는 야생동물과 운전자 모두를 로드킬로부터 안전하게 지킬 수 있는 도로 시설물을 제안하고자 한다.</p>
+
+<p>Design for both the animals and the human beings <br />
+_Solar Powered wild animal warning System</p>
+
+<p>Numerous animals are facing brutal deaths on the road. Though the roads were built for the sake of humans’ convenience, they have become the animals’ road to death. Animals that suddenly jump into roads have also caused many traffic accidents. Here, we propose a road facility that can protect both the animals and drivers from such misfortunes.</p>
+
+<p><img src="../photo/Zerokill-1.jpg" alt="" /><br />
+<img src="../photo/Zerokill-2.jpg" alt="" /><br />
+<img src="../photo/Zerokill-3.jpg" alt="" /><br />
+<img src="../photo/Zerokill-4.jpg" alt="" /></p>
+</div>
+
+	
+
+</article>
+    </div>
+
+
+    <footer id="footer">
+      <p class="meta"><span class="postdate">BT AR</span></p>
+      <!-- <div class="PageNavigation">
+        
+          <a class="prev" href="/productDesign/2009-08-12-Lighting%20wave%20sculpture/">< 이전글(P)</a>
+        
+        
+          <a class="next" href="/productDesign/2009-10-04-Mushroom%20AHU/">다음글(N) ></a>
+        
+      </div> -->
+    </footer>
+  </div>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "/productDesign/2009-10-04-Mushroom%20AHU/";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "/productDesign/2009-08-12-Lighting%20wave%20sculpture/";
+      }
+      
+    }
+
+
+  </script>
+
+
+
+</body>
+</html>

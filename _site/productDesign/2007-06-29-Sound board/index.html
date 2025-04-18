@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <title>Sound board</title> -->
+  <title>sungi kim</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;"> -->
+  
+  <link href="/assets/css/style3.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/">Sungi Kim</a></h1>
+    <p></p>
+    <div id="sidebar">
+      <nav>
+        <ul>
+          
+          <li><a href="/about">About</a></li>  
+          
+          <li><a href="/diary">Diary</a></li>  
+          
+          <li><a href="/design">Design</a></li>  
+          
+          <li><a href="/book">Book</a></li>  
+          
+          <li><a href="/etc">etc.</a></li>  
+          
+          <li><a href="/productDesign">Product Design</a></li>  
+          
+          <!-- <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/diary">Diary</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="PageNavigation">
+      
+        <a class="prev" href="/productDesign/2007-06-10-Notepad%20folder/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/productDesign/2007-07-10-Fish%20USB%20memory/">다음글(N) ></a>
+      
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      
+        <a class="prev" href="/productDesign/2007-06-10-Notepad%20folder/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/productDesign/2007-07-10-Fish%20USB%20memory/">다음글(N) ></a>
+      
+    </div> -->
+
+
+
+    <div id="content">
+      <article class="post">
+
+	
+		<h1 class=contentTitle><a href="/productDesign/2007-06-29-Sound%20board/">Sound board <span class="titleDate">(Jun 29, 2007)</span></a></h1>
+	
+
+	<div class="post-content"><p>Year : 2007</p>
+
+<p>예전의 뮤직박스처럼, 라운지와 같은 공공장소에서 음악을 들려주는 보드. 노래를 듣고싶은 사람은 전면의 터치패널에 손가락으로 글씨를 쓰고 사운드보드는 그 곡을 인터넷에서 스트리밍 하여 들려준다. 곡들이 늘어나면 오른쪽 상단에 playlist가 생기고 자동으로 반복재생하게 된다.</p>
+
+<p>The “Sound Board” is a pioneering music player that streams music from a flat board. It is in fact a digital music player integrated with a touch screen which allows the users to choose tracks by writing with their fingers on its touch panel. Internet capable, the sound board allows you stream your desired tracks and also transmit them via Bluetooth. The tracks playback as per the playlist displayed at the upper right part of the touch panel. The Sound Board also boasts of surround sound through its speakers incorporated in its frame. It surely is a space saving music player.</p>
+
+<p><img src="../photo/Sound board-1.jpg" alt="" /><br />
+<img src="../photo/Sound board-2.jpg" alt="" /><br />
+<img src="../photo/Sound board-3.jpg" alt="" /></p>
+</div>
+
+	
+
+</article>
+    </div>
+
+
+    <footer id="footer">
+      <p class="meta"><span class="postdate">BT AR</span></p>
+      <!-- <div class="PageNavigation">
+        
+          <a class="prev" href="/productDesign/2007-06-10-Notepad%20folder/">< 이전글(P)</a>
+        
+        
+          <a class="next" href="/productDesign/2007-07-10-Fish%20USB%20memory/">다음글(N) ></a>
+        
+      </div> -->
+    </footer>
+  </div>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "/productDesign/2007-07-10-Fish%20USB%20memory/";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "/productDesign/2007-06-10-Notepad%20folder/";
+      }
+      
+    }
+
+
+  </script>
+
+
+
+</body>
+</html>

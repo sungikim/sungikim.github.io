@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <title>완전 카오스.</title> -->
+  <title>sungi kim</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;"> -->
+  
+  <link href="/assets/css/style3.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/">Sungi Kim</a></h1>
+    <p></p>
+    <div id="sidebar">
+      <nav>
+        <ul>
+          
+          <li><a href="/about">About</a></li>  
+          
+          <li><a href="/diary">Diary</a></li>  
+          
+          <li><a href="/design">Design</a></li>  
+          
+          <li><a href="/book">Book</a></li>  
+          
+          <li><a href="/etc">etc.</a></li>  
+          
+          <li><a href="/productDesign">Product Design</a></li>  
+          
+          <!-- <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/diary">Diary</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="PageNavigation">
+      
+        <a class="prev" href="/diary/2007-07-15-%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%89%E1%85%B3/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/diary/2007-07-17-%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7/">다음글(N) ></a>
+      
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      
+        <a class="prev" href="/diary/2007-07-15-%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%89%E1%85%B3/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/diary/2007-07-17-%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7/">다음글(N) ></a>
+      
+    </div> -->
+
+
+
+    <div id="content">
+      <article class="post">
+
+	
+		<h1 class=contentTitle><a href="/diary/2007-07-16-%E1%84%8B%E1%85%AA%E1%86%AB%E1%84%8C%E1%85%A5%E1%86%AB_%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%89%E1%85%B3/">완전 카오스. <span class="titleDate">(Jul 16, 2007)</span></a></h1>
+	
+
+	<div class="post-content"><p>사람들과 함께 살아가는, 인간의 삶이란 참 힘들다…… 인간이란 존재들이 갖고있지 못해 가장 힘들어 하는건, 아마도 다른 사람의 마음을 들여다 보는 능력이 아닐까?</p>
+
+<p>힘들다. 진짜 힘들다.</p>
+
+<p>뭐 이리 힘든거냐. 남들보다 사랑을 못받고 자라서 그런거야? 난 나름대로 부모님이 잘키웠다고 생각하는 아들이 되려고 마음먹고 살았다. 그런데 어떤식으로든, 한 부분은 모자란 채로 자랐는지도 모른다. 왜 미리 깨닫지 못했을까? 내가 빨리 깨달았다면 부모님은 더 기뻐하셨을꺼고, 나도 더 나았을거다.</p>
+
+<p>역시 난 사랑하는 사람들에게 잘 대하고 표현하는법을 모른다.</p>
+
+<p>과연 어떤게 후회할 짓일까. 20년 후의 선기야.</p>
+
+<p>좀 알려주라…………제발……..</p>
+</div>
+
+	
+
+</article>
+    </div>
+
+
+    <footer id="footer">
+      <p class="meta"><span class="postdate">BT AR</span></p>
+      <!-- <div class="PageNavigation">
+        
+          <a class="prev" href="/diary/2007-07-15-%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%89%E1%85%B3/">< 이전글(P)</a>
+        
+        
+          <a class="next" href="/diary/2007-07-17-%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7/">다음글(N) ></a>
+        
+      </div> -->
+    </footer>
+  </div>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "/diary/2007-07-17-%E1%84%8B%E1%85%A1%E1%86%AF%E1%84%80%E1%85%A9%E1%84%85%E1%85%B5%E1%84%8C%E1%85%B3%E1%86%B7/";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "/diary/2007-07-15-%E1%84%8F%E1%85%A1%E1%84%8B%E1%85%A9%E1%84%89%E1%85%B3/";
+      }
+      
+    }
+
+
+  </script>
+
+
+
+</body>
+</html>

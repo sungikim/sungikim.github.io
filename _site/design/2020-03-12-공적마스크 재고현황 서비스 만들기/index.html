@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <title>공적마스크 재고현황 서비스 만들기</title> -->
+  <title>sungi kim</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;"> -->
+  
+  <link href="/assets/css/style3.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/">Sungi Kim</a></h1>
+    <p></p>
+    <div id="sidebar">
+      <nav>
+        <ul>
+          
+          <li><a href="/about">About</a></li>  
+          
+          <li><a href="/diary">Diary</a></li>  
+          
+          <li><a href="/design">Design</a></li>  
+          
+          <li><a href="/book">Book</a></li>  
+          
+          <li><a href="/etc">etc.</a></li>  
+          
+          <li><a href="/productDesign">Product Design</a></li>  
+          
+          <!-- <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/diary">Diary</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="PageNavigation">
+      
+        <a class="prev" href="/design/2019-09-26-3D%20Printing%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%89%E1%85%A5%E1%86%BC%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8E%E1%85%A2%E1%86%A8%E1%84%89%E1%85%A5%E1%86%AB%E1%84%87%E1%85%A1%E1%86%AB/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/design/2020-05-07-3D%20Printing%EA%B3%BC%20%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%EB%A5%BC/">다음글(N) ></a>
+      
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      
+        <a class="prev" href="/design/2019-09-26-3D%20Printing%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%89%E1%85%A5%E1%86%BC%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8E%E1%85%A2%E1%86%A8%E1%84%89%E1%85%A5%E1%86%AB%E1%84%87%E1%85%A1%E1%86%AB/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/design/2020-05-07-3D%20Printing%EA%B3%BC%20%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%EB%A5%BC/">다음글(N) ></a>
+      
+    </div> -->
+
+
+
+    <div id="content">
+      <article class="post">
+
+	
+		<h1 class=contentTitle><a href="/design/2020-03-12-%EA%B3%B5%EC%A0%81%EB%A7%88%EC%8A%A4%ED%81%AC%20%EC%9E%AC%EA%B3%A0%ED%98%84%ED%99%A9%20%EC%84%9C%EB%B9%84%EC%8A%A4%20%EB%A7%8C%EB%93%A4%EA%B8%B0/">공적마스크 재고현황 서비스 만들기 <span class="titleDate">(Mar 12, 2020)</span></a></h1>
+	
+
+	<div class="post-content"><p>이틀 전, 공적마스크 데이터 Open API가 개방된다는 소식을 듣고, 공적마스크 재고현황 서비스를 만들어보았습니다.</p>
+
+<p>어제는 최소한의 기능으로, 리스트로 현황을 표시해주는 기능을 만들었습니다.<br />
+오늘은 필요하다 싶은 것들은 다 만들어 넣었습니다. 딱 이틀이 걸렸네요.<br />
+(멋진 이름을 찾아 짓고 싶었는데, 코딩과 디자인 하다가 번아웃 됨)</p>
+
+<p>제공되는 API에서 쓸만한 것들을 대부분 제공하기 때문에, 따로 서버 기능이 필요없었고 HTML, javascript, css 이 세가지로 온전히 완성할 수 있었습니다(그런데 그래서 제 코드가 날로 다 보입니다. 전 초보니 욕하지 말아주세요). 특히, 정부기관의 공공데이터 중에서는 위치정보를 lat,lng 좌표가 아닌 다른 방식으로 제공한다거나, xml형태로 한다거나 해서 가공하기 귀찮은 경우들이 많았는데, 이번 API는 깔끔하네요!</p>
+
+<p>아, 저는 디자이너니까 기능과 디자인 이야기를 해야죠. 일단, 서비스의 url은 아래와 같습니다. 모바일만 지원합니다.<br />
+https://www.2mask.co<br />
+(브런치 앱의 웹뷰로는 기능이 동작하지 않네요! 사파리나 크롬으로 열어야 합니다)</p>
+
+<h2 id="전체적인-구조">전체적인 구조</h2>
+<p><img src="../photo/2020-03-12-공적마스크 재고현황 서비스 만들기-1.jpeg" alt="" /><br />
+<img src="../photo/2020-03-12-공적마스크 재고현황 서비스 만들기-2.jpeg" alt="" /></p>
+
+<p>몇 가지 API가 제공되는데, 어떤 것들은 서버에 데이터를 저장하고 가공하거나 조합해야하는 것들이 있어서 그런 기능은 제외했고, 특정 좌표 기준 반경 0-5km까지의 가게 및 재고 정보를 제공하는 API가 있어서 해당 정보만 제공하는 것으로 설계를 했습니다.</p>
+
+<p>일단 윗쪽에 sticky header를 배치하고, tab을 세 개 넣었습니다. 아랫쪽은 각 tab의 콘텐츠들이 표시됩니다. 상단에는 타이틀과 함께 마지막 정보 갱신 시각을 넣었고요. 이 정보는 (api제공이 무리없이 된다면)매번 중요하게 전달할 사항은 아니기 때문에 옅게 처리했습니다. 그리고 ‘재고있음’ 버튼은 재고가 있는 가게들만 리스트와 지도에 표시하는 토글 버튼입니다.</p>
+
+<p>API 설명서에 데이터 출처 및 데이터와 실제현황의 시간차, 그리고 현장에 계신분들의 노고에 대한 안내를 해달라고 해서 ‘안내’ 탭에 그 정보를 넣었습니다.</p>
+
+<h2 id="리스트-tab">리스트 Tab</h2>
+<p><img src="../photo/2020-03-12-공적마스크 재고현황 서비스 만들기-3.jpeg" alt="" /><br />
+<img src="../photo/2020-03-12-공적마스크 재고현황 서비스 만들기-4.jpeg" alt="" /></p>
+
+<p>리스트는 기본적으로 동일한 포맷의 카드를 제공하고 재고현황에 따라 색을 구분하는 형태를 취했습니다. API기술문서에서 재고 현황에 따른 색정보를 초록,노랑,빨강,회색으로 구분하고 이를 지켜주기를 권고하고 있었는데요, 다양한 서비스들이 다른 색으로 현황을 알리면 유저들에게 혼돈을 줄 수 있기 때문이라고 합니다. 급하게 만든 API일텐데, 생각보다 세심하게 신경을 써주었네요 :) 그래서 그렇게 색에 따라 구분되어 보여질 수 있게 하이라이팅을 했습니다.</p>
+
+<p>대신 재고가 없는 곳은 아예 dim 처리를 하고, 주소정보도 빼고 크기를 약간 줄였습니다. 지금 당장 의미있는 정보는 안되겠지만 그래도 근처의 약국들이 같이 나와주는게 유저에게 정보에 대한 안심을 줄 수도 있겠죠.</p>
+
+<p>그리고 카드를 탭하면, bottom sheet에 카드와 동일한 정보를 제공하고, 현재 나의 위치와 해당 가게의 위치가 함께 나오도록 미니맵을 제공합니다. 이렇게 하면 대략적인 위치나 거리를 좀 더 잘 알 수 있겠죠. 그리고 ‘카카오맵’이나 ‘네이버맵’이 깔려있는 유저들을 위해 바로가기 버튼을 제공합니다. 버튼을 누르면 해당 지도앱이 열리고, 가게 이름이 검색된 결과 화면이 뜨게 됩니다.</p>
+
+<h2 id="지도-tab">지도 Tab</h2>
+<p><img src="../photo/2020-03-12-공적마스크 재고현황 서비스 만들기-5.jpeg" alt="" /><br />
+<img src="../photo/2020-03-12-공적마스크 재고현황 서비스 만들기-6.jpeg" alt="" /></p>
+
+<p>지도 Tab에서는 지도를 활용한 다양한 서비스들이 하는 것과 마찬가지로, 지도를 띄우고 마커를 표시합니다.  이런 정보를 제공하는 서비스들 중에 범례를 따로 제공하고 범례에 따른 컬러 마커만 띄우는 서비스들이 많이 있는데, 이 서비스에서는 마커에 바로 정보를 표시하는 것으로 했습니다. 영역 정보도 아니고 특정 지점의 데이터들이기도 하고, 표시할 정보의 양이 많지 않기도 하고요. 이것에 대해서는 얼마전 pxd의 무이님도 언급을 해주셨습니다.</p>
+
+<p>그리고 마커를 탭하면, 리스트 Tab에서와 마찬가지로 bottom sheet가 표시됩니다. 대신 여긴 지도뷰니까 미니맵은 필요없겠죠 :)</p>
+
+<h2 id="마치며">마치며</h2>
+<p>아주 간단한 기능을 아주 빨리 만드려다보니 아주 멋지지는 않습니다.</p>
+
+<p>코로나19가 (적어도 우리나라에서는)그렇게 오래 가지는 않을 것이라 믿고, 이런 서비스도 수명은 길지 않겠죠. 임시텐트와 같은 것이라 생각합니다. 필요한 정보와 사용성을 충분히 제공하고 기능적으로 잘 동작하는 정도로 족하겠죠.</p>
+
+<p>그런데 이 간단한 서비스를 만들면서도 역시나 머리는 많이 아팠습니다. 익혀야 할 것들이 많더라고요. 언어는 HTML, javascript, css만이었지만 구현을 하기위한 라이브러리들 혹은 인프라들에 대한 학습이 필요했습니다.<br />
+html에 맵을 뿌리기위해 kakao map의 library를 대략 익혀야 했고, js의 async(아 싫어)도 다시 체득을 해야했습니다. 하지만 무엇보다 어려웠던 것은 https 세팅을 했어야 하는건데요. js를 사용해 ‘기기의 현재 위치정보’를 알아내기 위해서는 https 사용이 필수였습니다. 전 여태 http만 가지고 놀았거든요. 아무튼 이건 코딩과는 상관없는 영역인데 한번도 해본 적이 없으니 구글링을 하며 호스팅과 도메인 어드민페이지를 왔다갔다가며 어찌어찌 성공했습니다.</p>
+
+<p>그래도 이틀안에! 원하는 것을 다 만들어서 배포까지 한 것이 뿌듯하고, (개발에 더 머리를 많이 썼지만)어느 정도 사용성을 고려한 디자인을 했다는 것에 만족합니다.</p>
+
+<p>필요하신 분들이 잘 쓰시게 되면 좋겠습니다 :)</p>
+</div>
+
+	
+
+</article>
+    </div>
+
+
+    <footer id="footer">
+      <p class="meta"><span class="postdate">BT AR</span></p>
+      <!-- <div class="PageNavigation">
+        
+          <a class="prev" href="/design/2019-09-26-3D%20Printing%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%89%E1%85%A5%E1%86%BC%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8E%E1%85%A2%E1%86%A8%E1%84%89%E1%85%A5%E1%86%AB%E1%84%87%E1%85%A1%E1%86%AB/">< 이전글(P)</a>
+        
+        
+          <a class="next" href="/design/2020-05-07-3D%20Printing%EA%B3%BC%20%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%EB%A5%BC/">다음글(N) ></a>
+        
+      </div> -->
+    </footer>
+  </div>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "/design/2020-05-07-3D%20Printing%EA%B3%BC%20%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%EB%A5%BC/";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "/design/2019-09-26-3D%20Printing%E1%84%80%E1%85%AA%20%E1%84%8C%E1%85%B5%E1%86%B8%E1%84%89%E1%85%A5%E1%86%BC%E1%84%86%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%B3%E1%84%85%E1%85%A9%20%E1%84%86%E1%85%A1%E1%86%AB%E1%84%83%E1%85%B3%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8E%E1%85%A2%E1%86%A8%E1%84%89%E1%85%A5%E1%86%AB%E1%84%87%E1%85%A1%E1%86%AB/";
+      }
+      
+    }
+
+
+  </script>
+
+
+
+</body>
+</html>

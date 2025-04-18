@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <title>Save water ring</title> -->
+  <title>sungi kim</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;"> -->
+  
+  <link href="/assets/css/style3.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/">Sungi Kim</a></h1>
+    <p></p>
+    <div id="sidebar">
+      <nav>
+        <ul>
+          
+          <li><a href="/about">About</a></li>  
+          
+          <li><a href="/diary">Diary</a></li>  
+          
+          <li><a href="/design">Design</a></li>  
+          
+          <li><a href="/book">Book</a></li>  
+          
+          <li><a href="/etc">etc.</a></li>  
+          
+          <li><a href="/productDesign">Product Design</a></li>  
+          
+          <!-- <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/diary">Diary</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="PageNavigation">
+      
+        <a class="prev" href="/productDesign/2011-05-11-OLED%20Lighting%20installation/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/productDesign/2011-09-21-Arduino%20with%20wii%20nunchuck/">다음글(N) ></a>
+      
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      
+        <a class="prev" href="/productDesign/2011-05-11-OLED%20Lighting%20installation/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/productDesign/2011-09-21-Arduino%20with%20wii%20nunchuck/">다음글(N) ></a>
+      
+    </div> -->
+
+
+
+    <div id="content">
+      <article class="post">
+
+	
+		<h1 class=contentTitle><a href="/productDesign/2011-05-14-Save%20water%20ring/">Save water ring <span class="titleDate">(May 14, 2011)</span></a></h1>
+	
+
+	<div class="post-content"><p>Year : 2011 <br />
+Design : Sungi Kim + Sungeun Choi</p>
+
+<p>‘Save water ring’은 수도꼭지에 연결해 물 사용량을 체크할 수 있는 제품컨셉이다. 별도의 전기공급이 필요없이 자체발전을 통해 기능을 수행할 에너지를 얻는 구조로 구성되어 있다. 내부에 소형의 수력발전기가 있고, 물이 나오는 동안 수압을 이용해 발전을 하며 전기를 생산하게 된다. 물이 나오는 동안 물 사용량이 체크되며, 전면의 LCD창을 통해 누적 사용량이 표시된다. ‘Save water ring’을 통해 사람들에게 잠깐 사용하기위해 틀어놓는 물이 얼마나 낭비되는지에 대한 경각심을 일깨울 수 있다.</p>
+
+<p>‘Save water ring’ is connected to faucet that displays use of water. It generates own power without any separate electricity supply. There is a hydroelectric power generator inside, and it generates electricity by water pressure while water is flowing. It records use of water while water is running, and it shows accumulated use of water through LCD screen. ‘Save water ring’ is to alert people to the waste of water that they may not realize.</p>
+
+<p><img src="../photo/Save water ring-1.jpg" alt="" /><br />
+<img src="../photo/Save water ring-2.jpg" alt="" /><br />
+<img src="../photo/Save water ring-3.jpg" alt="" /><br />
+<img src="../photo/Save water ring-4.jpg" alt="" /></p>
+</div>
+
+	
+
+</article>
+    </div>
+
+
+    <footer id="footer">
+      <p class="meta"><span class="postdate">BT AR</span></p>
+      <!-- <div class="PageNavigation">
+        
+          <a class="prev" href="/productDesign/2011-05-11-OLED%20Lighting%20installation/">< 이전글(P)</a>
+        
+        
+          <a class="next" href="/productDesign/2011-09-21-Arduino%20with%20wii%20nunchuck/">다음글(N) ></a>
+        
+      </div> -->
+    </footer>
+  </div>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "/productDesign/2011-09-21-Arduino%20with%20wii%20nunchuck/";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "/productDesign/2011-05-11-OLED%20Lighting%20installation/";
+      }
+      
+    }
+
+
+  </script>
+
+
+
+</body>
+</html>

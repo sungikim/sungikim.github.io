@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <title>꿈속의 꿈</title> -->
+  <title>sungi kim</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;"> -->
+  
+  <link href="/assets/css/style3.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/">Sungi Kim</a></h1>
+    <p></p>
+    <div id="sidebar">
+      <nav>
+        <ul>
+          
+          <li><a href="/about">About</a></li>  
+          
+          <li><a href="/diary">Diary</a></li>  
+          
+          <li><a href="/design">Design</a></li>  
+          
+          <li><a href="/book">Book</a></li>  
+          
+          <li><a href="/etc">etc.</a></li>  
+          
+          <li><a href="/productDesign">Product Design</a></li>  
+          
+          <!-- <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/diary">Diary</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="PageNavigation">
+      
+        <a class="prev" href="/diary/2013-07-22-It's_true,_I_was_made_for_you/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/diary/2013-08-04-Pump_up_the_volume/">다음글(N) ></a>
+      
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      
+        <a class="prev" href="/diary/2013-07-22-It's_true,_I_was_made_for_you/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/diary/2013-08-04-Pump_up_the_volume/">다음글(N) ></a>
+      
+    </div> -->
+
+
+
+    <div id="content">
+      <article class="post">
+
+	
+		<h1 class=contentTitle><a href="/diary/2013-08-02-%E1%84%81%E1%85%AE%E1%86%B7%E1%84%89%E1%85%A9%E1%86%A8%E1%84%8B%E1%85%B4_%E1%84%81%E1%85%AE%E1%86%B7/">꿈속의 꿈 <span class="titleDate">(Aug 02, 2013)</span></a></h1>
+	
+
+	<div class="post-content"><p>꿈을 꿨다. 한 시간 동안. 세 번의 꿈. 꿈1 속에 꿈2가 있었고, 꿈2가 깨며 꿈이 깬 줄 알았지만 꿈1 속에 있다가 꿈3을 다시 꾸었다. 그러다가 꿈3을 깨게 되었고, 꿈1속에서 나는 이건 꿈이지 않을까 하며 꿈1도 깼다. _ 혹은 비슷하지만 살짝 바꿔 쓰면 이렇다. DSS에서 자고 있는데 사람들이 막 들어오고 치우고, 건물이 팔리는 꿈을 꿨다. 어느 순간 꿈이 깼다. 꿈1이었다. DSS침대에 누워있었다. 그러고 난 뒤, 어느 순간 다시, 쓰레기가 배두나를 청소하고 있었다. 음, 그리고 왜인지 모르지만 내 아이폰의 한 모서리가 부서져있었다. 뭐지. 그러고 난 뒤 어느 순간 꿈이 깼다. 꿈 2였다. DSS침대에 누워있었다. 그러다가 난, 이건 꿈이 아닐까? 하는 생각을 하며 꿈에서 깼다. 꿈 3이었다. DDS침대에 누워있었다. _ 아무튼 결론은, 내가 꿈에서 그 속의 꿈으로 들어가겠어, 가 아니라 깨보니 꿈 속의 꿈이었고, 깨보니 꿈이었더라. 아니면 지금이 꿈이던가.</p>
+</div>
+
+	
+
+</article>
+    </div>
+
+
+    <footer id="footer">
+      <p class="meta"><span class="postdate">BT AR</span></p>
+      <!-- <div class="PageNavigation">
+        
+          <a class="prev" href="/diary/2013-07-22-It's_true,_I_was_made_for_you/">< 이전글(P)</a>
+        
+        
+          <a class="next" href="/diary/2013-08-04-Pump_up_the_volume/">다음글(N) ></a>
+        
+      </div> -->
+    </footer>
+  </div>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "/diary/2013-08-04-Pump_up_the_volume/";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "/diary/2013-07-22-It's_true,_I_was_made_for_you/";
+      }
+      
+    }
+
+
+  </script>
+
+
+
+</body>
+</html>

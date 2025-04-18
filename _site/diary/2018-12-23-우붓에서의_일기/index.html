@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <title>우붓에서의 일기</title> -->
+  <title>sungi kim</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;"> -->
+  
+  <link href="/assets/css/style3.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/">Sungi Kim</a></h1>
+    <p></p>
+    <div id="sidebar">
+      <nav>
+        <ul>
+          
+          <li><a href="/about">About</a></li>  
+          
+          <li><a href="/diary">Diary</a></li>  
+          
+          <li><a href="/design">Design</a></li>  
+          
+          <li><a href="/book">Book</a></li>  
+          
+          <li><a href="/etc">etc.</a></li>  
+          
+          <li><a href="/productDesign">Product Design</a></li>  
+          
+          <!-- <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/diary">Diary</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="PageNavigation">
+      
+        <a class="prev" href="/diary/2018-09-15-%E1%84%87%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/diary/2019-01-03-%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%8C%E1%85%A6/">다음글(N) ></a>
+      
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      
+        <a class="prev" href="/diary/2018-09-15-%E1%84%87%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/diary/2019-01-03-%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%8C%E1%85%A6/">다음글(N) ></a>
+      
+    </div> -->
+
+
+
+    <div id="content">
+      <article class="post">
+
+	
+		<h1 class=contentTitle><a href="/diary/2018-12-23-%E1%84%8B%E1%85%AE%E1%84%87%E1%85%AE%E1%86%BA%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5%E1%84%8B%E1%85%B4_%E1%84%8B%E1%85%B5%E1%86%AF%E1%84%80%E1%85%B5/">우붓에서의 일기 <span class="titleDate">(Dec 23, 2018)</span></a></h1>
+	
+
+	<div class="post-content"><p>나무와 구름과 지붕으로 가득한 풍경. 그 속에서 창밖을 바라보며 음악을 듣는다. 잔나비의 여름. 멍하니 풍경을 바라본다. 내가 지금까지 느낀 이곳의 풍경과는 다르게 차분한 느낌이다. 밤에는 비가 몰아칠 것처럼. 시원하고 습한 바람을 맞으며 앉아 있다. 얼마간은 외롭다는 생각이 들었는데, 지금은 고독하다는 생각이 든다.</p>
+
+<p>이렇게 멍하니 바깥풍경을 바라보고 있는 것이 얼마만일까.</p>
+
+<p>휴대폰이 없던 때, 컴퓨터가 없었던 때, 난 풍경을 보면서 무슨 생각들을 했었을까.</p>
+
+<p>담배를 피우지 않았던 때, 난 어떤 자세로 어떻게 풍경을 바라보았을까.</p>
+
+<p>스무살의 나는 풍경을 보며 무슨 생각을 했을까.</p>
+
+<p>서른살의 나는 풍경을 보며 무슨 생각을 했을까.</p>
+
+<p>지금의 나는, 풍경을 보며 무슨 생각을 하면 좋을까.</p>
+</div>
+
+	
+
+</article>
+    </div>
+
+
+    <footer id="footer">
+      <p class="meta"><span class="postdate">BT AR</span></p>
+      <!-- <div class="PageNavigation">
+        
+          <a class="prev" href="/diary/2018-09-15-%E1%84%87%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB/">< 이전글(P)</a>
+        
+        
+          <a class="next" href="/diary/2019-01-03-%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%8C%E1%85%A6/">다음글(N) ></a>
+        
+      </div> -->
+    </footer>
+  </div>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "/diary/2019-01-03-%E1%84%8E%E1%85%AE%E1%86%A8%E1%84%8C%E1%85%A6/";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "/diary/2018-09-15-%E1%84%87%E1%85%A1%E1%86%A8%E1%84%8C%E1%85%AE%E1%86%AB/";
+      }
+      
+    }
+
+
+  </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="UTF-8">
+  <!-- <title>실수!</title> -->
+  <title>sungi kim</title>
+  <meta name="viewport" content="width=device-width">
+  <!-- <meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width;initial-scale=1.0;maximum-scale=1.0;user-scalable=0;"> -->
+  
+  <link href="/assets/css/style3.css" rel="stylesheet" />
+  <link href="/assets/css/colors-dark.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+
+  <header id="header">
+    <h1><a href="/">Sungi Kim</a></h1>
+    <p></p>
+    <div id="sidebar">
+      <nav>
+        <ul>
+          
+          <li><a href="/about">About</a></li>  
+          
+          <li><a href="/diary">Diary</a></li>  
+          
+          <li><a href="/design">Design</a></li>  
+          
+          <li><a href="/book">Book</a></li>  
+          
+          <li><a href="/etc">etc.</a></li>  
+          
+          <li><a href="/productDesign">Product Design</a></li>  
+          
+          <!-- <li><a href="/">Home</a></li>
+          <li><a href="/archives">Archive</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/diary">Diary</a></li>
+          <li><a href="http://twitter.com/redwall_hp">Twitter</a></li>
+          <li><a href="/feed.xml">RSS Feed</a></li> -->
+        </ul>
+      </nav>
+    </div>
+    <div class="PageNavigation">
+      
+        <a class="prev" href="/diary/2007-07-20-Keyword/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/diary/2007-07-22-%E1%84%8B%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B4_%E1%84%91%E1%85%A9%E1%84%8E%E1%85%B2%E1%86%AB%E1%84%8F%E1%85%AE%E1%84%8F%E1%85%B5/">다음글(N) ></a>
+      
+    </div>
+  </header>
+
+
+
+
+
+  <div id="page">
+
+    <!-- <div class="PageNavigation">
+      
+        <a class="prev" href="/diary/2007-07-20-Keyword/">< 이전글(P)</a>
+      
+      
+        <a class="next" href="/diary/2007-07-22-%E1%84%8B%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B4_%E1%84%91%E1%85%A9%E1%84%8E%E1%85%B2%E1%86%AB%E1%84%8F%E1%85%AE%E1%84%8F%E1%85%B5/">다음글(N) ></a>
+      
+    </div> -->
+
+
+
+    <div id="content">
+      <article class="post">
+
+	
+		<h1 class=contentTitle><a href="/diary/2007-07-20-%E1%84%89%E1%85%B5%E1%86%AF%E1%84%89%E1%85%AE!/">실수! <span class="titleDate">(Jul 20, 2007)</span></a></h1>
+	
+
+	<div class="post-content"><p>오늘은 원래 가족들이랑 당일치기 여행이 잡혀있었는데, 일년에 한번인데……………… …어제 친구 생일파티한다고 술먹고 취해서, 오늘 하루종일 뻗어있었다. 여행은 못가고………아…….엄마아빠. 정말 죄송합니다. 못난 아들은 전화로는 미안하다 말한마디 못하고, 엄마아빠가 모르는 공간에 대고 죽어가는 목소리로 말하는게 다예요.. 가족들에게는 정말 반듯한 아들, 동생이고 싶은데, 살면서 벌써 몇번째 실수를 하는구나… 제대로 살자. 정말. 가족들에게 못난꼴을 보이고 있다는건, 정말 제대로 못살고 있는거다. 생각좀 하자.. 가족들에게 ‘내가 요즘 사랑때문에 힘들어.’ 라고 말도 못꺼낼 녀석이면, 그런걸 내색않고 지낼수 있는 능력이라도 있어야지. 아무튼, 요즘은 너무 꼬여있다. 정신을 차릴 계기가 필요하다. muji 공모전은 월욜까지 하기로 했으면서, 술먹고 놀고 영화보고 인터넷질이나 하고있냐. 좀 맞자.. 퍽</p>
+</div>
+
+	
+
+</article>
+    </div>
+
+
+    <footer id="footer">
+      <p class="meta"><span class="postdate">BT AR</span></p>
+      <!-- <div class="PageNavigation">
+        
+          <a class="prev" href="/diary/2007-07-20-Keyword/">< 이전글(P)</a>
+        
+        
+          <a class="next" href="/diary/2007-07-22-%E1%84%8B%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B4_%E1%84%91%E1%85%A9%E1%84%8E%E1%85%B2%E1%86%AB%E1%84%8F%E1%85%AE%E1%84%8F%E1%85%B5/">다음글(N) ></a>
+        
+      </div> -->
+    </footer>
+  </div>
+
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+  <script src="/assets/js/jquery.mobilemenu.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('#sidebar nav ul').mobileMenu({'topOptionText': 'Menu', 'prependTo': '#sidebar nav'});
+    });
+
+    document.addEventListener('keypress', logKey);
+
+    function logKey(e) {
+      console.log(e.keyCode)
+      if(e.keyCode == 110 || e.keyCode == 39) {
+        window.location.href = "/diary/2007-07-22-%E1%84%8B%E1%85%A9%E1%84%82%E1%85%B3%E1%86%AF%E1%84%8B%E1%85%B4_%E1%84%91%E1%85%A9%E1%84%8E%E1%85%B2%E1%86%AB%E1%84%8F%E1%85%AE%E1%84%8F%E1%85%B5/";
+      }
+      if(e.keyCode == 112 || e.keyCode == 37) {
+        window.location.href = "/diary/2007-07-20-Keyword/";
+      }
+      
+    }
+
+
+  </script>
+
+
+
+</body>
+</html>

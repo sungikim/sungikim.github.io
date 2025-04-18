@@ -1,0 +1,15 @@
+---
+layout: default
+title: Diary
+---
+
+<div id="diary">
+	{% assign sorted = site.diary | reverse %}
+	{% for post in sorted %}
+		<article class="post">
+				<a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} | {{ post.title }}</a>
+		</article>
+		
+	{% endfor %}
+
+</div>
