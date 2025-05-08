@@ -2,7 +2,7 @@ name: Sungi Kim
 url: sungikim.github.io
 description: 
 
-permalink: /:year/:month/:day/:hour/:minute/
+permalink: /posts/:year:month:day:hour:minute/
 paginate: 10
 
 gems: [jekyll-paginate]
