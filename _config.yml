@@ -11,8 +11,10 @@ exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
+      path: "_*/photo"
     values:
+      image: true
+      sitemap: false
       layout: "post"
 
 kramdown:
@@ -39,6 +41,15 @@ navigation:
 include:
   - _*/photo
   - _*/photo/*
+  - _diary/photo
+  - _memory/photo
+  - _design/photo
+  - _book/photo
+  - _movie/photo
+  - _make/photo
+  - _etc/photo
+
+collections_dir: ""
 
 collections:
   diary:
