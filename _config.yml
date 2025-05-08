@@ -39,15 +39,22 @@ navigation:
 collections:
   diary:
     output: true
+    permalink: /diary/:year:month:day:hour:minute/
   memory:
     output: true
+    permalink: /memory/:year:month:day:hour:minute/
   design:
     output: true
+    permalink: /design/:year:month:day:hour:minute/
   book:
     output: true
+    permalink: /book/:year:month:day:hour:minute/
   movie:
     output: true
+    permalink: /movie/:year:month:day:hour:minute/
   make:
     output: true
+    permalink: /make/:year:month:day:hour:minute/
   etc:
     output: true
+    permalink: /etc/:year:month:day:hour:minute/
