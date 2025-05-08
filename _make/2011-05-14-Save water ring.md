@@ -10,7 +10,7 @@ Design : Sungi Kim + Sungeun Choi
 
 'Save water ring' is connected to faucet that displays use of water. It generates own power without any separate electricity supply. There is a hydroelectric power generator inside, and it generates electricity by water pressure while water is flowing. It records use of water while water is running, and it shows accumulated use of water through LCD screen. 'Save water ring' is to alert people to the waste of water that they may not realize.
 
-![](../photo/Save water ring-1.jpg)
-![](../photo/Save water ring-2.jpg)
-![](../photo/Save water ring-3.jpg)
-![](../photo/Save water ring-4.jpg)
+![](/photo/make/Save water ring-1.jpg)
+![](/photo/make/Save water ring-2.jpg)
+![](/photo/make/Save water ring-3.jpg)
+![](/photo/make/Save water ring-4.jpg)

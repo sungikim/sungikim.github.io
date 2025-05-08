@@ -5,4 +5,4 @@ date: "2012-07-29"
 
 Year : 2012
 
-![](../photo/Simple controller-1.jpg)
+![](/photo/make/Simple controller-1.jpg)

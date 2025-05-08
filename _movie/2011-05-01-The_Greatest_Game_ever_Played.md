@@ -14,5 +14,5 @@ date: "2011-05-01"
 장면장면의 프레임, 컬러도 멋졌고, 소리도 멋졌다. 그래서 더 감동적이었나보다.  
   
 
-![](../photo/2011-05-01-The_Greatest_Game_ever_Played.jpg)
-![](../photo/2011-05-01-The_Greatest_Game_ever_Played-2.jpg)
+![](/photo/movie/2011-05-01-The_Greatest_Game_ever_Played.jpg)
+![](/photo/movie/2011-05-01-The_Greatest_Game_ever_Played-2.jpg)

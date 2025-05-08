@@ -13,6 +13,6 @@ Award : iida 2009 / G-design fair 2009
 Our lights will lead the way 
 \_Eco-friendly Road light for the countryside The special lane lights sense vehicles passing by and get powered with the gust of wind these vehicles produce. Having mini-wind-turbines and wireless data link sensors, the lights caution the others in a row at about 50-100 meters, and the latter start blinking. So, while you take to the road, the peg lights will lead your way and since these ask for nothing to keep illuminating.
 
-![](../photo/Our lights will lead the way-1.jpg)
-![](../photo/Our lights will lead the way-2.jpg)
-![](../photo/Our lights will lead the way-3.jpg)
+![](/photo/make/Our lights will lead the way-1.jpg)
+![](/photo/make/Our lights will lead the way-2.jpg)
+![](/photo/make/Our lights will lead the way-3.jpg)

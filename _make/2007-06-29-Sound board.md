@@ -9,6 +9,6 @@ Year : 2007
 
 The “Sound Board” is a pioneering music player that streams music from a flat board. It is in fact a digital music player integrated with a touch screen which allows the users to choose tracks by writing with their fingers on its touch panel. Internet capable, the sound board allows you stream your desired tracks and also transmit them via Bluetooth. The tracks playback as per the playlist displayed at the upper right part of the touch panel. The Sound Board also boasts of surround sound through its speakers incorporated in its frame. It surely is a space saving music player.
 
-![](../photo/Sound board-1.jpg)
-![](../photo/Sound board-2.jpg)
-![](../photo/Sound board-3.jpg)
+![](/photo/make/Sound board-1.jpg)
+![](/photo/make/Sound board-2.jpg)
+![](/photo/make/Sound board-3.jpg)

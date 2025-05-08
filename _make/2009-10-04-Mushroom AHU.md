@@ -13,6 +13,6 @@ as the air handling unit (AHU) also been touched by design? The designs of air c
 
 If there was a mushroom shaped "AHU" spouting from one side of a building in a city full of six-sided solids instead of a square shaped "white box", couldn't this also be considered something "green"?
 
-![](../photo/Mushroom AHU-1.jpg)
-![](../photo/Mushroom AHU-2.jpg)
-![](../photo/Mushroom AHU-3.jpg)
+![](/photo/make/Mushroom AHU-1.jpg)
+![](/photo/make/Mushroom AHU-2.jpg)
+![](/photo/make/Mushroom AHU-3.jpg)

@@ -5,4 +5,4 @@ date: "2016-05-10"
 
 Year : 2016
 
-![](../photo/NemoNemo_desk_speaker_b.jpg)
+![](/photo/make/NemoNemo_desk_speaker_b.jpg)

@@ -9,8 +9,8 @@ Award : Acuiculture machine design award, kr
 
 Acuiculture machine with LED
 
-![](../photo/Smart incubator-1.jpg)
-![](../photo/Smart incubator-2.jpg)
-![](../photo/Smart incubator-3.jpg)
-![](../photo/Smart incubator-4.jpg)
-![](../photo/Smart incubator-5.jpg)
+![](/photo/make/Smart incubator-1.jpg)
+![](/photo/make/Smart incubator-2.jpg)
+![](/photo/make/Smart incubator-3.jpg)
+![](/photo/make/Smart incubator-4.jpg)
+![](/photo/make/Smart incubator-5.jpg)

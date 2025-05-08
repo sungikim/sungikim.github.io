@@ -12,4 +12,4 @@ date: "2012-08-20"
 언제나 그렇듯 기나긴 이야기는 하지 않겠지만, 나중에 다시 볼만하다.
 
 
-![](../photo/2012-08-20-Tinker_Tailor_Soldier_Spy.jpg)
+![](/photo/movie/2012-08-20-Tinker_Tailor_Soldier_Spy.jpg)

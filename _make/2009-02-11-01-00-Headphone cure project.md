@@ -7,7 +7,7 @@ Year : 2009
 
 망가진 헤드폰 플러그를 교체하고 가죽으로 덧댐
 
-![](../photo/Headphone_cure_project-1.jpg)
-![](../photo/Headphone_cure_project-2.jpg)
-![](../photo/Headphone_cure_project-3.jpg)
-![](../photo/Headphone_cure_project-4.jpg)
+![](/photo/make/Headphone_cure_project-1.jpg)
+![](/photo/make/Headphone_cure_project-2.jpg)
+![](/photo/make/Headphone_cure_project-3.jpg)
+![](/photo/make/Headphone_cure_project-4.jpg)

@@ -11,10 +11,10 @@ Year : 2009
 
 기찻길 바로 옆, 기찻길을 넘는 다리 사이에 위치한 전2소공원 내에 Lighting wave sculpture는 오고가는 사람들에게 쉽게 보여진다. 공원을 이용하는 시민들에겐 삭막한 방은판과 펜스의 분위기에서 벗어나 기차가 지나갈 때 마다 반응하는 조형물에서 재미를 느낄 수 있다.
 
-![](../photo/Lighting wave sculpture-1.jpg)
-![](../photo/Lighting wave sculpture-2.jpg)
-![](../photo/Lighting wave sculpture-3.jpg)
-![](../photo/Lighting wave sculpture-4.jpg)
-![](../photo/Lighting wave sculpture-5.jpg)
-![](../photo/Lighting wave sculpture-6.jpg)
-![](../photo/Lighting wave sculpture-7.jpg)
+![](/photo/make/Lighting wave sculpture-1.jpg)
+![](/photo/make/Lighting wave sculpture-2.jpg)
+![](/photo/make/Lighting wave sculpture-3.jpg)
+![](/photo/make/Lighting wave sculpture-4.jpg)
+![](/photo/make/Lighting wave sculpture-5.jpg)
+![](/photo/make/Lighting wave sculpture-6.jpg)
+![](/photo/make/Lighting wave sculpture-7.jpg)

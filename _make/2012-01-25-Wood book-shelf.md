@@ -11,5 +11,5 @@ Press : ICON Magazine, 2013
 
 The bookshelf is created with two identical forms. one form is connected to the inverted other. It’s made with birch wood and a red string to bind them. The tilted form of the interior suggests books to be stacked from the lower end for the intuitive arrangement. The geometric form of the exterior provides comfort in the familiarity with the existing product landscape of bookshelves, and the contrast in the exterior and the interior forms deliver the sense of uniqueness in its style and functionality.
 
-![](../photo/Wood book-shelf-1.jpg)
-![](../photo/Wood book-shelf-2.jpg)
+![](/photo/make/Wood book-shelf-1.jpg)
+![](/photo/make/Wood book-shelf-2.jpg)
