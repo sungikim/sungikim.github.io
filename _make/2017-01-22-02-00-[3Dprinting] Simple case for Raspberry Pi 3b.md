@@ -1,6 +1,6 @@
 ---
 title: "[3D printing] Simple case for Raspberry Pi 3b"
-date: "2017-01-22"
+date: "2017-01-22 02:00"
 ---
 
 Year : 2017

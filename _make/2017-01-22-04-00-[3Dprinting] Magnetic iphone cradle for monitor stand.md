@@ -1,6 +1,6 @@
 ---
 title: "[3D printing] Magnetic iphone cradle for monitor stand"
-date: "2017-01-22"
+date: "2017-01-22 04:00"
 ---
 
 Year : 2017
